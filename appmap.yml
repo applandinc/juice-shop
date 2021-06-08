@@ -1,0 +1,12 @@
+enabled: true
+packages:
+  - path: build
+    recursive: true
+children:
+  - type: fork
+    recorder: normal
+    main: build/app.js
+    options:
+      stdio: inherit
+      encoding: utf8
+output: 'appmap/appmaps'
