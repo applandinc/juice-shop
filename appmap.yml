@@ -15,5 +15,5 @@ hooks:
   http: true
   sqlite3: true
 output:
-  directory: 'appmap/appmaps'
+  directory: 'appmap'
   file-name: 'juice'
