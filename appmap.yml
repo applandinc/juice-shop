@@ -9,4 +9,11 @@ children:
     options:
       stdio: inherit
       encoding: utf8
-output: 'appmap/appmaps'
+hooks:
+  cjs: true
+  esm: true
+  http: true
+  sqlite3: true
+output:
+  directory: 'appmap/appmaps'
+  file-name: 'juice'
