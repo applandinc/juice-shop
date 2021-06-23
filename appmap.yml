@@ -1,6 +1,6 @@
 enabled: true
 packages:
-  - path: build/route
+  - path: build/
     recursive: true
 children:
   - type: fork
