@@ -17,3 +17,8 @@ hooks:
 output:
   directory: 'appmap'
   file-name: 'juice'
+exclude:
+  - '/^arrow-/u'
+  - '/^object-/u'
+  - '/^function-/u'
+  - '/^class-/u'
